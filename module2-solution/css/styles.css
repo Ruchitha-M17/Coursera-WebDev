@@ -1,40 +1,74 @@
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+  margin-right: 10px;
+  margin-left: 20px;
+  font-family: 'Roboto Serif', serif;
+  
+}
+#container{
+  position: relative;
 }
 
 h1{
-    font-weight: bold;
-    color: #111111;
     text-align: center;
-    margin-top: 30px;
-    font-size: 120%;
 }
 
 .row{
     width : 100%;
-    position: relative;
 }
 
 *{
     box-sizing: border-box;
 }
 
+p{
+  background-color: #bfbfbf;
+    border: 2px solid black;
+    height: 150px;
+    margin-right: 10px;
+    padding: 40px 10px 5px 10px;
+    overflow: hidden;
+}
+#p1{
+    background-color: rgb(241, 174, 174);
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+}
 
 #p2{
-    background-color: #808080;
-    width: 90%;
-    height: 10%;
-    margin-right: auto;
-    margin-left: auto;
-    border-bottom: 20px;
-    
+    background-color: rgba(194, 34, 34, 0.84);
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    color: white;
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
 }
+
+#p3{
+    background-color: rgba(242, 229, 142, 0.827);
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+}
+
 
 @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-      float: left;
-      border: 1px solid #111111;
-      
+      float: left; 
     }
     .col-lg-1 {
       width: 8.33%;
@@ -75,10 +109,9 @@ h1{
   }
   
   /********** Medium devices only **********/
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width: 768px) and (max-width: 991.50px) {
      .col-md-6, .col-md-12 {
       float: left;
-      border: 1px solid #111111;
     }
     .col-md-6 {
         width: 50%;
@@ -90,10 +123,9 @@ h1{
     }
   }
  
-@media(max-width: 767px) {
+@media(max-width: 767.50px) {
       .col-sm {
         float: left;
-        border: 1px solid #111111;
       }
         .col-sm{
             width : 100%;
